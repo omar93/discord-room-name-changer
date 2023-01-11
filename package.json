@@ -1,11 +1,11 @@
 {
-  "type": "module",
   "name": "discord-room-name-changer",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/omar93/discord-room-name-changer/issues"
   },
-  "homepage": "https://github.com/omar93/discord-room-name-changer#readme"
+  "homepage": "https://github.com/omar93/discord-room-name-changer#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
